@@ -1,0 +1,29 @@
+{
+  "name": "pocketsocket",
+  "version": "1.0.0",
+  "description": "Minecraft: Bedrock Edition用のWebSocketサーバー",
+  "main": "PocketSocket/index.ts",
+  "scripts": {
+    "dev": ".\\node_modules\\.bin\\ts-node -r tsconfig-paths/register PocketSocket/index.ts"
+  },
+  "author": "arutaka1220",
+  "license": "MIT",
+  "dependencies": {
+    "@types/colors": "^1.2.1",
+    "colors": "^1.4.0",
+    "fs": "^0.0.1-security",
+    "moment": "^2.29.4",
+    "node-console-colors": "^1.1.5",
+    "ps": "file:PocketSocket",
+    "readline": "^1.3.0",
+    "ts-eventemitter": "^0.1.0",
+    "ts-node": "^10.9.1",
+    "tsc": "^2.0.4",
+    "typescript": "^5.2.2",
+    "uuidv4": "^6.2.13",
+    "ws": "^8.14.2"
+  },
+  "devDependencies": {
+    "tsconfig-paths": "^4.2.0"
+  }
+}

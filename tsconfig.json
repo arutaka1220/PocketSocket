@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "moduleResolution": "NodeNext",
+        "module": "NodeNext",
+        "baseUrl": "./PocketSocket",
+        "esModuleInterop": true
+    },
+    "include": ["./PocketSocket/**/*"],
+    "exclude": ["node_modules"]
+}
